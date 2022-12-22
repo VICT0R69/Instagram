@@ -5,6 +5,7 @@ const app = express();
 const mongoose = require('mongoose');
 app.set('views', 'Views');
 app.set('view engine', 'ejs');
+mongoose.set('strictQuery',true)
 app.use('', express.static('Static'));
 app.use('/static', express.static('Static'));
 app.use(express.urlencoded({ extended: false }));
