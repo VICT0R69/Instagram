@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(250, 250, 250);
+
+}
+
+main {
+    height: 80vh;
+}
+
+.container {
+    margin: auto;
+    width: 22rem;
+    height: 35rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.form {
+    /* background:  purple; */
+    height: 18rem;
+    border: 1px solid rgb(219, 219, 219);
+    background: white;
+
+}
+
+.logo {
+    height: 8rem;
+    /* background:red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 11rem;
+}
+
+.form form {
+    /* background: yellow; */
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-inputs {
+    /* background: grey; */
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.all-inputs input {
+    height: 2.5rem;
+    width: 16rem;
+    font-size: .7rem;
+    padding-left: .5rem;
+    box-sizing: border-box;
+    background: rgb(250, 250, 250);
+    border-radius: 3px;
+    border: 1px solid rgb(219, 219, 219);
+
+}
+
+.all-inputs input:focus {
+    outline: none;
+}
+
+.all-buttons {
+    height: 4rem;
+    /* background-color: goldenrod; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.all-buttons input {
+    height: 2rem;
+    width: 16rem;
+    background: rgb(160, 215, 251);
+    /* background: rgb(0, 149, 246); */
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.all-buttons a {
+    margin-top: .5rem;
+    height: 2rem;
+    width: 16rem;
+}
+
+/* .btn:hover {
+    border: 3px solid darkblue;
+    color: darkblue;
+} */
+
+.link {
+    background: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.link p a {
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.get {
+    height: 10rem;
+    /* background: red; */
+
+}
+
+.para {
+    /* background-color: yellow; */
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    height: 6rem;
+    width: 17rem;
+    margin: auto;
+    /* background: green; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon img {
+    width: 8rem;
+    height: 2.5rem;
+}
+
+footer {
+    /* background: pink; */
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(142, 142, 142);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
